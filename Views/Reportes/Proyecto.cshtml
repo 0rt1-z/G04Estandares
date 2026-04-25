@@ -1,0 +1,72 @@
+﻿@model ConsultoriaApp.Services.ReporteProyectoVM
+@{
+    ViewData["Title"] = "Reporte de Proyecto";
+}
+
+<h2><i class="bi bi-bar-chart me-1"></i>Reporte — @Model.Proyecto.Nombre</h2>
+
+<div class="row g-3 mb-4">
+    <div class="col-md-3">
+        <div class="card text-center bg-primary text-white">
+            <div class="card-body">
+                <small>Presupuesto</small>
+                <h4>$@Model.Proyecto.Presupuesto.ToString("N2")</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center bg-@(Model.CostoReal > Model.Proyecto.Presupuesto ? "danger" : "success") text-white">
+            <div class="card-body">
+                <small>Costo Real</small>
+                <h4>$@Model.CostoReal.ToString("N2")</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center bg-info text-white">
+            <div class="card-body">
+                <small>Diferencia</small>
+                <h4>$@Model.Diferencia.ToString("N2")</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center bg-secondary text-white">
+            <div class="card-body">
+                <small>Horas Totales</small>
+                <h4>@Model.HorasTotales.ToString("N2") h</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Fecha</th>
+            <th>Consultor</th>
+            <th>Tarea</th>
+            <th>Horas</th>
+            <th>Costo</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model.Registros)
+        {
+            <tr>
+                <td>@r.Fecha.ToString("dd/MM/yyyy")</td>
+                <td>@r.Usuario?.FullName</td>
+                <td>@r.Tarea?.Nombre</td>
+                <td>@r.HorasTotales.ToString("N2")</td>
+                <td>$@((r.HorasTotales * Model.Proyecto.TarifaHora).ToString("N2"))</td>
+            </tr>
+        }
+    </tbody>
+    <tfoot class="table-dark">
+        <tr>
+            <td colspan="3"><strong>TOTALES</strong></td>
+            <td><strong>@Model.HorasTotales.ToString("N2")</strong></td>
+            <td><strong>$@Model.CostoReal.ToString("N2")</strong></td>
+        </tr>
+    </tfoot>
+</table>

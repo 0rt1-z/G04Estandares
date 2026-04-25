@@ -1,0 +1,117 @@
+﻿@model ConsultoriaApp.Models.Proyecto
+@{
+    ViewData["Title"] = Model.Nombre;
+    var costoReal = (decimal)(ViewBag.CostoReal ?? 0);
+    var pct = Model.Presupuesto > 0 ? (costoReal / Model.Presupuesto) * 100 : 0;
+}
+
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a asp-action="Index">Proyectos</a></li>
+        <li class="breadcrumb-item active">@Model.Nombre</li>
+    </ol>
+</nav>
+
+<!-- Alertas del proyecto -->
+@foreach (var alerta in Model.Alertas.Where(a => !a.Leida))
+{
+    <div class="alert alert-@(alerta.Tipo == "PresupuestoAgotado" ? "danger" : "warning") alert-dismissible">
+        @alerta.Mensaje
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="row g-4 mb-4">
+    <!-- KPI Cards -->
+    <div class="col-md-3">
+        <div class="card text-center border-0 bg-primary text-white shadow">
+            <div class="card-body">
+                <h6>Presupuesto</h6>
+                <h3>$@Model.Presupuesto.ToString("N2")</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center border-0 @(costoReal > Model.Presupuesto ? "bg-danger" : "bg-success") text-white shadow">
+            <div class="card-body">
+                <h6>Costo Real</h6>
+                <h3>$@costoReal.ToString("N2")</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center border-0 bg-info text-white shadow">
+            <div class="card-body">
+                <h6>Diferencia</h6>
+                <h3>$@((Model.Presupuesto - costoReal).ToString("N2"))</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-center border-0 bg-secondary text-white shadow">
+            <div class="card-body">
+                <h6>Ejecución</h6>
+                <h3>@pct.ToString("N1")%</h3>
+                <div class="progress mt-1" style="height:6px">
+                    <div class="progress-bar bg-white"
+                         style="width:@Math.Min(pct, 100)%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tareas -->
+<div class="card shadow-sm mb-4">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <strong><i class="bi bi-list-check me-1"></i>Tareas</strong>
+        <a asp-controller="Tareas" asp-action="Crear" asp-route-proyectoId="@Model.Id"
+           class="btn btn-sm btn-success">
+            <i class="bi bi-plus"></i> Agregar tarea
+        </a>
+    </div>
+    <div class="card-body p-0">
+        <table class="table table-hover mb-0">
+            <thead class="table-light">
+                <tr>
+                    <th>Tarea</th>
+                    <th>Asignado</th>
+                    <th>Fecha fin</th>
+                    <th>Estado</th>
+                    <th>Prioridad</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var t in Model.Tareas)
+                {
+                    <tr>
+                        <td>@t.Nombre</td>
+                        <td>@(t.Asignado?.FullName ?? "—")</td>
+                        <td>@t.FechaFin.ToString("dd/MM/yyyy")</td>
+                        <td>
+                            <span class="badge bg-@(t.Estado == "Completada" ? "success" :
+                                                                  t.Estado == "EnProceso" ? "primary" :
+                                                                  t.Estado == "Bloqueada" ? "danger" : "secondary")">
+                                @t.Estado
+                            </span>
+                        </td>
+                        <td>
+                            <span class="badge bg-@(t.Prioridad == "Alta" ? "danger" :
+                                                                  t.Prioridad == "Media" ? "warning" : "success")">
+                                @t.Prioridad
+                            </span>
+                        </td>
+                        <td>
+                            <a asp-controller="RegistroTiempos" asp-action="Crear"
+                               asp-route-tareaId="@t.Id"
+                               class="btn btn-xs btn-outline-primary btn-sm">
+                                <i class="bi bi-clock"></i> Tiempo
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ConsultoriaApp.Models.ApplicationUser> SignInManager
+@inject UserManager<ConsultoriaApp.Models.ApplicationUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    var usuario = await UserManager.GetUserAsync(User);
+    var iniciales = string.Concat(
+        (usuario?.FullName ?? "U")
+            .Split(' ')
+            .Where(p => !string.IsNullOrEmpty(p))
+            .Take(2)
+            .Select(p => p[0])
+    ).ToUpper();
+
+    <div class="dropdown" style="margin-top:auto;padding:14px 18px;border-top:1px solid rgba(255,255,255,0.1);">
+        <a href="#" class="d-flex align-items-center gap-2 text-decoration-none dropdown-toggle"
+           data-bs-toggle="dropdown" style="color:#fff">
+            <div style="width:32px;height:32px;border-radius:50%;background:#3b82f6;
+                            display:flex;align-items:center;justify-content:center;
+                            font-size:12px;font-weight:600;flex-shrink:0">
+                @iniciales
+            </div>
+            <div>
+                <div style="font-size:12px;font-weight:500">@usuario?.FullName</div>
+                <div style="font-size:10px;color:rgba(255,255,255,0.5)">
+                    @(User.IsInRole("Administrador") ? "Administrador" :
+                                    User.IsInRole("Lider") ? "Líder" : "Consultor")
+                </div>
+            </div>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark">
+            <li>
+                <a class="dropdown-item" asp-area="Identity" asp-page="/Account/Manage/Index">
+                    <i class="bi bi-person-circle me-2"></i>Mi perfil
+                </a>
+            </li>
+            <li><hr class="dropdown-divider"></li>
+            <li>
+                <form asp-area="Identity" asp-page="/Account/Logout"
+                      asp-route-returnUrl="@Url.Action("Index", "Proyectos")" method="post">
+                    <button type="submit" class="dropdown-item">
+                        <i class="bi bi-box-arrow-right me-2"></i>Cerrar sesión
+                    </button>
+                </form>
+            </li>
+        </ul>
+    </div>
+}
+else
+{
+    <div style="padding:14px 18px;border-top:1px solid rgba(255,255,255,0.1)">
+        <a asp-area="Identity" asp-page="/Account/Login"
+           style="display:flex;align-items:center;gap:8px;color:rgba(255,255,255,0.75);
+                      text-decoration:none;font-size:13px">
+            <i class="bi bi-box-arrow-in-right" style="font-size:15px"></i>
+            Iniciar sesión
+        </a>
+    </div>
+}

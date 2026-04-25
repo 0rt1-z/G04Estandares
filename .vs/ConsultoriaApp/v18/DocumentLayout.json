@@ -1,0 +1,479 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\consultoriaapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:consultoriaapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\views\\reportes\\proyecto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:views\\reportes\\proyecto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\views\\registrotiempos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:views\\registrotiempos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\views\\proyectos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:views\\proyectos\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\views\\proyectos\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:views\\proyectos\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\views\\proyectos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:views\\proyectos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:controllers\\reportescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\controllers\\registrotiemposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:controllers\\registrotiemposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\services\\registrotiemposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:services\\registrotiemposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\services\\proyectoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:services\\proyectoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\services\\iproyectoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:services\\iproyectoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\models\\proyectousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:models\\proyectousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\models\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:models\\alerta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\models\\registrotiempo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:models\\registrotiempo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\models\\tareadependencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:models\\tareadependencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\models\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:models\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|c:\\users\\pc\\desktop\\consultoriaapp\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D909029-503A-A562-77D1-8BA51C2D61CA}|ConsultoriaApp.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwDsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T04:25:49.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwCkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T04:25:45.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConsultoriaApp",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\ConsultoriaApp.csproj",
+              "RelativeDocumentMoniker": "ConsultoriaApp.csproj",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\ConsultoriaApp.csproj",
+              "RelativeToolTip": "ConsultoriaApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-25T04:12:18.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:34:41.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\RegistroTiempos\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Views\\RegistroTiempos\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\RegistroTiempos\\Crear.cshtml",
+              "RelativeToolTip": "Views\\RegistroTiempos\\Crear.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T03:56:02.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:45:33.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Proyecto.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\Reportes\\Proyecto.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reportes\\Proyecto.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\Reportes\\Proyecto.cshtml",
+              "RelativeToolTip": "Views\\Reportes\\Proyecto.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAuwEcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T03:56:37.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T03:57:54.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\Proyectos\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Views\\Proyectos\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\Proyectos\\Crear.cshtml",
+              "RelativeToolTip": "Views\\Proyectos\\Crear.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T03:55:21.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Detalle.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\Proyectos\\Detalle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Proyectos\\Detalle.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\Proyectos\\Detalle.cshtml",
+              "RelativeToolTip": "Views\\Proyectos\\Detalle.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAuwHQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T03:55:05.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\Proyectos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Proyectos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\Proyectos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Proyectos\\Index.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwEMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T03:54:01.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReportesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Controllers\\ReportesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportesController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Controllers\\ReportesController.cs",
+              "RelativeToolTip": "Controllers\\ReportesController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:53:13.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-25T03:57:53.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegistroTiemposController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Controllers\\RegistroTiemposController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RegistroTiemposController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Controllers\\RegistroTiemposController.cs",
+              "RelativeToolTip": "Controllers\\RegistroTiemposController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAA8wDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:52:45.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TareasController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Controllers\\TareasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TareasController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Controllers\\TareasController.cs",
+              "RelativeToolTip": "Controllers\\TareasController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAuwFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:52:17.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProyectosController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Controllers\\ProyectosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProyectosController.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Controllers\\ProyectosController.cs",
+              "RelativeToolTip": "Controllers\\ProyectosController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:49:25.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegistroTiempoService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Services\\RegistroTiempoService.cs",
+              "RelativeDocumentMoniker": "Services\\RegistroTiempoService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Services\\RegistroTiempoService.cs",
+              "RelativeToolTip": "Services\\RegistroTiempoService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:48:30.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProyectoService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Services\\ProyectoService.cs",
+              "RelativeDocumentMoniker": "Services\\ProyectoService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Services\\ProyectoService.cs",
+              "RelativeToolTip": "Services\\ProyectoService.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:48:05.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProyectoService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Services\\IProyectoService.cs",
+              "RelativeDocumentMoniker": "Services\\IProyectoService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Services\\IProyectoService.cs",
+              "RelativeToolTip": "Services\\IProyectoService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:47:46.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-25T03:45:58.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProyectoUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\ProyectoUsuario.cs",
+              "RelativeDocumentMoniker": "Models\\ProyectoUsuario.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\ProyectoUsuario.cs",
+              "RelativeToolTip": "Models\\ProyectoUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:45:20.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Alerta.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\Alerta.cs",
+              "RelativeDocumentMoniker": "Models\\Alerta.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\Alerta.cs",
+              "RelativeToolTip": "Models\\Alerta.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:45:00.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegistroTiempo.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\RegistroTiempo.cs",
+              "RelativeDocumentMoniker": "Models\\RegistroTiempo.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\RegistroTiempo.cs",
+              "RelativeToolTip": "Models\\RegistroTiempo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:44:44.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TareaDependencia.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\TareaDependencia.cs",
+              "RelativeDocumentMoniker": "Models\\TareaDependencia.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\TareaDependencia.cs",
+              "RelativeToolTip": "Models\\TareaDependencia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:44:22.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\Tarea.cs",
+              "RelativeDocumentMoniker": "Models\\Tarea.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\Tarea.cs",
+              "RelativeToolTip": "Models\\Tarea.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:43:59.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Proyecto.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\Proyecto.cs",
+              "RelativeDocumentMoniker": "Models\\Proyecto.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\Proyecto.cs",
+              "RelativeToolTip": "Models\\Proyecto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:43:37.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\ConsultoriaApp\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T03:43:06.217Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
